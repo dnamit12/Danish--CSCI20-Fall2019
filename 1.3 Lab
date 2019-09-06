@@ -1,0 +1,8 @@
+# Danish--CSCI20-Fall2019
+git remote add origin https://repl.it/@dnamit12/13-Lab
+git push-u origin master
+put in username and password
+git add file or. for all
+git commit -a -m 'stuff'
+git push
+put in username and password.
