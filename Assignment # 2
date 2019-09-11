@@ -1,0 +1,49 @@
+Danish Namit
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Console.WriteLine ("Hello World");
+
+    double c, f, k;
+
+    // This would convert celsius to fahrenheit.
+    Console.WriteLine("Enter the value of Celsius you would like to convert to Fahrenheit.");
+    c = Convert.ToDouble(Console.ReadLine());
+    f = c * 9 / 5 +32;
+    Console.WriteLine(c + "Celsius in Fahrenheit is: " + f + "Fahrenheit");
+
+    // This would convert celsius to kelvin
+    Console.WriteLine("Enter the value of Celsius you would like to convert to Kelvin.");
+    c = Convert.ToDouble(Console.ReadLine());
+    k = c + 273.15;
+    Console.WriteLine(c + "Celsius in Kelvin is: " + k + "Kelvin");
+
+    // This would convert fahrenheit to celsius.
+    Console.WriteLine("Enter the value of Fahrenheit you would like to convert to Celsius.");
+    f = Convert.ToDouble(Console.ReadLine());
+    c = (f - 32) * 5 / 9;
+    Console.WriteLine(f + "Fahrenheit in Celsius is: " + c + "Celsius");
+    
+    // This would convert Fahrenheit to kelvin.
+    Console.WriteLine("Enter the value of Fahrenheit you would like to convert to Kelvin.");
+    f = Convert.ToDouble(Console.ReadLine());
+    k = (f + 459.67) * 5 / 9;
+    Console.WriteLine(c + "Fahrenheit in Kelvin is: " + k + "Celsius");
+
+
+    // This would convert Kelvin to Celsius.
+    Console.WriteLine("Enter the value of Kelvin you would like to convert to Celsius.");
+    k = Convert.ToDouble(Console.ReadLine());
+    c = k - 273.15;
+    Console.WriteLine(k + "Kelvin in Celsius is : " + c + "Celsius");
+    
+    // This would convert Kelvin to Fahrenheit
+    Console.WriteLine("Enter the value of Kelvin you would like to convert to Fahrenheit.");
+    k = Convert.ToDouble(Console.ReadLine());
+    f = k * 9 / 5 - 459.67;
+    Console.WriteLine(k + "Kelvin in Fahrenheit is :" + f + "Celsius");
+    Console.ReadLine();
+    
+  }
+}
